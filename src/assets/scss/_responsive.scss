@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+  .err-container {
+    width: 90% !important;
+
+    .err-container__header {
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 15px;
+
+      .err-ico {
+        margin-bottom: 13px;
+      }
+    }
+    .err-container__body {
+      text-align: center;
+
+      p {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+    .err-container__footer {
+      .btns-container {
+        width: 100%;
+        flex-direction: column;
+
+        .danger-butn {
+          margin-left: 0;
+          margin-bottom: 16px;
+          order: 0;
+        }
+      }
+    }
+  }
+}
